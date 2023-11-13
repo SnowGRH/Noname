@@ -1,3 +1,10 @@
 ## AutoMoso
 
-#Vinczeffy Gergely
+# Vinczeffy Gergely
+# Szlanka Péter
+
+
+| Szlanka Péter    | Vinczeffy Gergely |
+| -------------   | ------------- |
+| Creater Porject  | Creater Github repository  |
+| Git push  | Readme formazas  |
