@@ -5,7 +5,7 @@
 | Creater Porject  | Creater Github repository  |
 | Git push  | Readme formazas  |
 
-#leírás<br>
+# __Bold__leírás<br>
 +Vannak koszos autók, amik a mosóba tudnak menni.<br>
 +Mosás után tiszta az autó<br>
 +Külömböző programokat lehet igénybe venni.<br>
