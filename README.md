@@ -1,7 +1,7 @@
-## AutoMoso
+# AutoMoso
 
-# Vinczeffy Gergely
-# Szlanka Péter
+## Vinczeffy Gergely
+## Szlanka Péter
 
 
 | Szlanka Péter    | Vinczeffy Gergely |
