@@ -10,4 +10,4 @@
 * Mosás után tiszta az autó.
 * Külömböző programokat lehet igénybe venni.
 * Az autók tudnak kopni, aminek az értéke a mosáshoz mérten csökken.
-* Kocsi be tud ragadni a mosóba --> tönkremegy.
+* Kocsi be tud ragadni a mosóba --> tönkremegy a mosos és a benne lévő kocsik.
