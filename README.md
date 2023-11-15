@@ -2,7 +2,7 @@
 
 | Szlanka Péter    | Vinczeffy Gergely |
 | -------------   | ------------- |
-| Creater Porject  | Creater Github repository  |
+| Creator Porject  | Creator Github repository  |
 | Git push  | Readme formazas  |
 
 # **leírás**
