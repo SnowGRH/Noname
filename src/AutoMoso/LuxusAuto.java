@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package AutoMoso;
 
-/**
- *
- * @author szlan
- */
-public class LuxusAuto extends Auto {
+public class LuxusAuto extends Auto  {
+    
+    public LuxusAuto(String marka) {
+        super(marka);
+    }
     
 }

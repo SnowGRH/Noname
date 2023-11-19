@@ -1,13 +1,32 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package AutoMoso;
 
-/**
- *
- * @author szlan
- */
 public abstract class Auto {
+    
+    private String marka;
+    private boolean tiszta;
+    
+    public Auto(String marka){
+        this.marka = marka;
+        tiszta = false;
+    }
+
+    public String getMarka() {
+        return marka;
+    }
+
+    public boolean isTiszta() {
+        return tiszta;
+    }
+
+    public void setMarka(String marka) {
+        this.marka = marka;
+    }
+
+    public void setTiszta(boolean tiszta) {
+        this.tiszta = tiszta;
+    }
+    
+    
+    
     
 }

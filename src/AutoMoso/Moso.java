@@ -1,13 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package AutoMoso;
 
-/**
- *
- * @author szlan
- */
 public class Moso {
+    
+    private Auto[] autok;
+    private int autoDb;
+    
+    public Moso(){
+        this(5);
+    }
+    
+    public Moso(int db){
+        autoDb = 0;
+        autok = new Auto[db];
+    }
+    
+    
+    
     
 }
