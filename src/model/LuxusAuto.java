@@ -10,23 +10,33 @@ package model;
  */
 public class LuxusAuto extends Kategoria {
 
-    public LuxusAuto(String tulNev) {
-        super(tulNev);
+    private double szinVesztes;
+
+    public LuxusAuto(String Nev) {
+        super(Nev);
+        szinVesztes = 100;
     }
 
+    public void setSzinVesztes(double szinVesztes) {
+        this.szinVesztes = szinVesztes;
+    }
+
+    public double getSzinVesztes() {
+        return szinVesztes;
+    }
     @Override
     public void AlapMosas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        szinVesztes *= .95;
     }
 
     @Override
     public void SilverMosas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        szinVesztes *= .97;
     }
 
     @Override
     public void GoldMosas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        szinVesztes *= .985;
     }
     
 }

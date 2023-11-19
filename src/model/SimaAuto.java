@@ -8,25 +8,36 @@ package model;
  *
  * @author gerge
  */
-public class SimaAuto extends Kategoria{
+public class SimaAuto extends Kategoria {
 
-    public SimaAuto(String tulNev) {
-        super(tulNev);
+    private double szinVesztes;
+
+    public SimaAuto(String Nev) {
+        super(Nev);
+        szinVesztes = 100;
+    }
+
+    public double getSzinVesztes() {
+        return szinVesztes;
+    }
+
+    public void setSzinVesztes(double szinVesztes) {
+        this.szinVesztes = szinVesztes;
     }
 
     @Override
     public void AlapMosas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        szinVesztes *= .95;
     }
 
     @Override
     public void SilverMosas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        szinVesztes *= .97;
     }
 
     @Override
     public void GoldMosas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        szinVesztes *= .985;
     }
-    
+
 }

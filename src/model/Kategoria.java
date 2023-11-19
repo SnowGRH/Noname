@@ -9,23 +9,23 @@ package model;
  * @author gerge
  */
 public abstract class Kategoria {
-    private String tulNeve;
+    private String Neve;
     private boolean allapot;
-    public Kategoria(String tulNev) {
-        this.tulNeve = tulNev;
+    public Kategoria(String Nev) {
+        this.Neve = Nev;
         allapot = false;
     }
 
     public String getTulNeve() {
-        return tulNeve;
+        return Neve;
     }
 
     public boolean isAllapot() {
         return allapot;
     }
 
-    public void setTulNeve(String tulNeve) {
-        this.tulNeve = tulNeve;
+    public void setTulNeve(String Neve) {
+        this.Neve = Neve;
     }
 
     public void setAllapot(boolean allapot) {
@@ -34,7 +34,7 @@ public abstract class Kategoria {
 
     @Override
     public String toString() {
-        return "Kategoria{" + "tulNeve=" + tulNeve + ", allapot=" + allapot + '}';
+        return "Kategoria{" + "tulNeve=" + Neve + ", allapot=" + allapot + '}';
     }
 
     
