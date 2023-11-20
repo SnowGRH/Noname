@@ -24,19 +24,6 @@ public class LuxusAuto extends Kategoria {
     public double getSzinVesztes() {
         return szinVesztes;
     }
-    @Override
-    public void AlapMosas() {
-        szinVesztes *= .95;
-    }
-
-    @Override
-    public void SilverMosas() {
-        szinVesztes *= .97;
-    }
-
-    @Override
-    public void GoldMosas() {
-        szinVesztes *= .985;
-    }
+    
     
 }

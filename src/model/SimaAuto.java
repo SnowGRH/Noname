@@ -25,19 +25,6 @@ public class SimaAuto extends Kategoria {
         this.szinVesztes = szinVesztes;
     }
 
-    @Override
-    public void AlapMosas() {
-        szinVesztes *= .95;
-    }
 
-    @Override
-    public void SilverMosas() {
-        szinVesztes *= .97;
-    }
-
-    @Override
-    public void GoldMosas() {
-        szinVesztes *= .985;
-    }
 
 }

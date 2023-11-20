@@ -4,17 +4,25 @@
  */
 package main;
 
+import model.Moso;
+import model.SimaAuto;
+
 /**
  *
  * @author szlanka.peter
  */
 public class Noname {
-
+    Moso m;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Noname().main();
     }
-    
+
+    private void main() {
+        m = new Moso();
+       m.beker(new SimaAuto("ford"));
+    }
+
 }
